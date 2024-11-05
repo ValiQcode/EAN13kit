@@ -1,5 +1,5 @@
 # EAN13kit
-Copyright (c) 2024 Bastiaan Quast, ValiQ Security.
+Copyright © 2024 Bastiaan Quast, ValiQ Security.
 
 **EAN13kit** is an open-source Swift library for generating EAN-13 barcode images. This lightweight library enables users to create EAN-13 barcodes as `UIImage` objects directly from numeric codes, suitable for retail, inventory, and logistics applications.
 
@@ -37,7 +37,7 @@ if let barcodeImage = drawEAN13Barcode(from: "1234567890128") {
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contributing
 
