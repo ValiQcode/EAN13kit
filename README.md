@@ -1,5 +1,5 @@
 # EAN13kit
-Copyright © 2024 Bastiaan Quast, ValiQ Security.
+Copyright © 2024 Bastiaan Quast, [ValiQ Security](https://www.valiq.com/).
 
 **EAN13kit** is an open-source Swift library for generating [EAN-13](https://en.wikipedia.org/wiki/International_Article_Number) barcode images. 
 The EAN-13 barcode, originally known as the **European Article Number** and now referred to simply as **International Article Number**,
