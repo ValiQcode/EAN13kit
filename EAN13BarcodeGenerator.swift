@@ -1,3 +1,8 @@
+//
+//  EAN13BarcodeGenerator.swift
+//  Bastiaan Quast
+//  ValiQ Security
+//
 import UIKit
 
 // Define the digit patterns for EAN-13 using enums
