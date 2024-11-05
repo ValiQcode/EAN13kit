@@ -1,7 +1,17 @@
 # EAN13kit
 Copyright © 2024 Bastiaan Quast, ValiQ Security.
 
-**EAN13kit** is an open-source Swift library for generating EAN-13 barcode images. This lightweight library enables users to create EAN-13 barcodes as `UIImage` objects directly from numeric codes, suitable for retail, inventory, and logistics applications.
+**EAN13kit** is an open-source Swift library for generating EAN-13 barcode images. 
+The EAN-13 barcode, originally known as the **European Article Number** and now referred to simply as **International Article Number**,
+is a 13-digit barcode standard used worldwide, particularly outside North America, for identifying products in retail environments. 
+EAN-13 is similar to the [UPC](https://en.wikipedia.org/wiki/Universal_Product_Code) (Universal Product Code) system, 
+which is popular in the United States and implemented directly by Apple in iOS, but EAN-13 is not supported natively. 
+This library fills that gap, providing a solution for generating EAN-13 barcodes in Swift.
+
+EAN-13 barcodes are designed for global product identification, with an additional digit to extend UPC’s capabilities internationally. 
+They incorporate a [Reed-Solomon](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) error correction algorithm, 
+which helps maintain data integrity and ensures readability despite potential scanning issues. 
+EAN-13 barcodes are widely used across Europe and many other regions, making them essential for products sold internationally.
 
 ## Features
 
